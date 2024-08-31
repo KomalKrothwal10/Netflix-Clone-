@@ -1,0 +1,586 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    display: flex;
+    max-width: 80vw;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    height: 132px;
+    
+    
+}
+.box-input::placeholder{
+    color:white;
+}
+
+nav img{
+    color: red;
+    width: 154px;
+    position: relative;
+    z-index: 13;
+
+}
+nav button{
+    z-index: 12; 
+    text-align: center;
+    position: relative;
+    top: 12px;
+    flex-grow: 12px;
+
+}
+.eng{
+    color:white;
+    border: 0.0001px solid white;
+    font-size:18px;
+    width: 9vw;
+    height: 25px;
+    background-color: black;
+}
+.sign{
+    color: white;
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 6px;
+    width:5.5dvw ;
+    height: 5vh;
+    font-size:14px;
+    font-weight: 500;
+}
+
+
+.main{
+    background-image: url("assets/netfixback.jpg");
+    display:flexbox;
+    background-position:center ;
+    background-size: 122vw 100%;
+    top: 0;
+    aspect-ratio: 99 79;
+    background-repeat: no-repeat;
+    height: 88vh;
+    position:relative;
+
+    
+
+    
+
+}
+.main .box{
+    height: 100%;
+    width: 100%;
+    opacity: 0.64;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+.box{
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.hero0{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: centre;
+    flex-direction: column;
+    color: white;
+    font-size: 5px;
+}
+.hero0 span{
+    position: relative;
+    top: 12vh;
+}
+.un{
+    font-weight: bolder;
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+.wa{
+    font-size: 25px;
+    position:relative;
+    padding: 20px;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+.re{
+    font-size: 20px;
+    padding: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.email{
+    position: relative;
+    top: 13vh;
+    right: 9vw;
+    height: 8vh;
+    width: 29vw;
+    padding: 11px;
+    border-radius: 5px;
+    display:flex ;
+    justify-content: left;
+    font-size: 18px;
+    margin: 5px;
+    background-color: unset;
+    color: gray;
+}
+.stat{
+    background-color: red;
+    color: white;
+    border: 2px solid white;
+    width: 15vw;
+    height: 8vh;
+    font-size: 23px;
+    position:relative;
+    left: 15vw;
+    top: 4vh;
+    border-radius: 4px;
+    font-weight: bolder;
+}
+.mains{
+    background-color: black;
+    width: 99vw;
+    height: 78vh;
+    padding: 12px;
+    margin-top: 6px;
+    
+    
+}
+.TV{
+    font-size: 49px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: bolder;
+    position: relative;
+    top: 7vh;
+    left: 12vw;
+}
+.watch{
+    font-size: 23px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif ;
+    position: relative;
+    top: 14vh;
+    right: 20vw;
+    
+}
+.chrome{
+    color: white;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 20vh;
+    right: 52.7vw;
+}
+.hl{
+    color: white;
+    font-size:23px ;
+    position: relative;
+    top: 20vh;
+    left: 9vw;
+}
+.tv img{
+    width: 36vw;
+    height: 55vh;
+    position: relative;
+    top: 30vh;
+    left: 39vw;
+
+}
+.video1 video {
+    width: 47vw;
+    height: 30.7vh;
+    position: relative;
+    top: 29vh;
+    right: 3vw;
+}
+.download{
+    background-color: black;
+    width: 99vw;
+    height: 78vh;
+    margin-top: 6px;
+}
+.do2{
+    font-size: 59px;
+    color: white;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    bottom:23vh;
+    left: 53vw;
+}
+.do1{
+    color: white;
+    font-size: 53px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    position: relative;
+    bottom:7vh;
+    right: 15vw;
+}
+.do{
+    font-size: 56px;
+    color: white;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    bottom:15vh;
+    left: 19vw;
+}
+.pg11{
+    color: white;
+    font-size: 19px;
+    font-family:Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 23vh;
+    right: 19vw;
+
+}
+.save{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    position: relative;
+    bottom:7vh;
+    left: 54vw;
+}
+.remove{
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    position: relative;
+    bottom: 6vh;
+    left:54vw;
+}
+nav img1{
+    position: inherit;
+    width: 23vw;
+    height: 23vh;
+}
+nav image{
+    position: relative;
+    width: 23vw;
+    height: 23vh;
+    
+}
+.download .default{
+    font-size:15px;
+    color: white;
+    display: block;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    font-weight: 400;
+   position: relative;
+   justify-content: center;
+   top: 27vh;
+   right: 70vw;
+   padding: 23vw;
+   text-align: center;
+}
+.main2{
+    background-color: black;
+    width: 99vw;
+    height: 78vh;
+    margin-top: 6px;
+}
+.watch1{
+    color: white;
+    font-size: 54px;
+    position: relative;
+    font-weight: 600;
+    bottom:14vh;
+    left: 12vw;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.stre{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    position: relative;
+    bottom:7vh;
+    right: 25vw;
+}
+.lap{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    position: relative;
+    bottom:2vh;
+    right:68.1vw;
+}
+.main3{
+    background-color: black;
+    width: 99vw;
+    height: 78vh;
+    margin-top: 6px; 
+}
+.kid1{
+    color:white;
+    font-size: 33px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    position: relative;
+    top:4.9vh;
+    left:52vw;
+}
+.kid2 {
+    color:white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top:13vh;
+    left:23vw;
+}
+.kid3{
+    color: white;
+    font-size: 18px;
+    position:relative;
+    top:17.7vh;
+    right:18.6vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main4{
+    background-color: black;
+    width: 99vw;
+    height: 200vh;
+}
+.kk{
+    color:white;
+    padding:23px;
+    position:relative;
+    bottom:23vh;
+    left:12vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.vht{
+    color:white;
+    border: 2px solid gray;
+    display: flex;
+    justify-content: left;
+    text-align: center;
+    width: 70vw;
+    height:4vh;
+    position: relative;
+    bottom: 24vh;
+    margin-left: 14vw;
+    padding: 19px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.cost{
+    color: white;
+    border: 2px solid gray;
+    display: flex;
+    width: 70vw;
+    position: relative;
+    bottom:24vh;
+    margin-left:14vw;
+    margin-top:12px;
+    padding: 19px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.where{
+    color: white;
+    border: 2px solid gray;
+    display: flex;
+    width: 70vw;
+    position: relative;
+    bottom:24vh;
+    margin-left:14vw;
+    margin-top:12px;
+    padding: 19px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cancel{
+    color: white;
+    border: 2px solid gray;
+    display: flex;
+    width: 70vw;
+    position: relative;
+    bottom:24vh;
+    margin-left:14vw;
+    margin-top:12px;
+    padding: 19px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.net{
+    color: white;
+    border: 2px solid gray;
+    display: flex;
+    width: 70vw;
+    position: relative;
+    bottom:24vh;
+    margin-left:14vw;
+    margin-top:12px;
+    padding: 19px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.good{
+    color: white;
+    border: 2px solid gray;
+    display: flex;
+    width: 70vw;
+    position: relative;
+    bottom:24vh;
+    margin-left:14vw;
+    margin-top:12px;
+    padding: 19px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight:300;
+    position: relative;
+    bottom:12vh;
+
+}
+.ready{
+    color:white;
+    font-family:Arial, Helvetica, sans-serif ;
+
+    font-size: 15px;
+    position: relative;
+    margin-left: 14vw;
+
+}
+.solid{
+    position: relative;
+    bottom: 11vh;
+    left: 13.4vw;
+    height: 8vh;
+    width: 60vw;
+    padding: 11px;
+    border-radius: 5px;
+    display:flex ;
+    justify-content: left;
+    font-size: 18px;
+    margin: 5px;
+    background-color: unset;
+    color: gray;
+}
+.ri{
+    position: relative;
+    bottom:20vh;
+    left: 75vw;
+    width: 10vw;
+    height: 7.5vh;
+    background-color: red;
+    color: white;
+    border:2px solid red;
+    font-size: 19px;
+    font-weight: 400;
+
+
+
+}
+.ques{
+    color:gray;
+    position: relative;
+    margin: 19vw;
+    margin-left:14vw ;
+    bottom: 53vh;
+
+}
+.ques2{
+    color: gray;
+    position: relative;
+    bottom:84vh;
+    margin-left: 14vw;
+}
+.ques3{
+    position: relative;
+    bottom:87vh;
+    margin-left: 38vw;
+
+
+}
+.ques4{
+    position:relative;
+    bottom:89vh;
+    margin-left:66vw;
+}
+.ques5{
+    position: relative;
+    bottom:85vh;
+    margin-left:13.9vw;
+}
+.ques6{
+    position: relative;
+    bottom: 88vh;
+    margin-left: 38vw;
+}
+.ques7{
+    position: relative;
+    bottom:91vh;
+    margin-left: 66vw;
+}
+.ques8{
+    position: relative;
+    bottom: 86vh;
+    margin-left: 14vw;
+
+}
+.ques9{
+    position:relative;
+    bottom:89vh;
+    margin-left: 38vw;
+    
+}
+.ques10{
+    position: relative;
+    bottom:92vh;
+    margin-left: 66vw;
+}
+.ques11{
+    position: relative;
+    bottom:86vh;
+    margin-left:14vw;
+
+}
+.ques12{
+    position: relative;
+    bottom:89vh;
+    margin-left: 38vw;
+    
+
+}
+.ques13{position: relative;
+    bottom:92vh;
+    margin-left:66vw ;
+
+}
+.ques14{position: relative;
+    bottom:86vh;
+    margin-left: 28vh;
+
+}
+.ques15{
+    position: relative;
+    bottom:89vh;
+    margin-left: 38vw;
+
+}
+.ques16{
+    position: relative;
+    bottom:91.7vh;
+    margin-left: 66vw;
+    
+}
+.media{
+    color:gray;
+    position: relative;
+    bottom:23vh;
+    font-size:18px;
+    margin-left:14vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
